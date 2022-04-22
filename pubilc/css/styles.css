@@ -1,0 +1,165 @@
+body{
+    text-align: center;
+    margin: 0;
+    color:black;
+}
+
+
+.parent {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    
+  }
+
+#home{
+  background-color: hsl(172, 51%, 89%);
+}
+/* Icons */
+
+.fa{
+    margin-left: 15px;
+    margin-right: 15px;
+  
+}
+.icons{
+  padding-top: 0.5%;
+  padding-bottom: 1%;
+  background-color: hsl(172, 51%, 89%);
+}
+/*The menu*/
+
+.topnav {
+    background-color: black;
+
+    overflow: hidden;
+    position: fixed; 
+    top: 50px; 
+    width: 100%;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.title{
+    margin: 0;
+    
+    background-color: hsl(172, 51%, 89%);
+}
+.title h1{
+    font-size: 8.5rem;
+    font-family: 'Sacramento', cursive;
+    position: relative;
+    margin:75px 0 0 0;;
+    color:  hsl(180, 41%, 57%);
+}
+ h2{
+    margin:0;
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+h3{
+  margin:0;
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.75rem;
+}
+
+.hills{
+      height: 600px;
+      width: 800px;
+  }
+
+
+
+/*about section*/
+
+
+#about{
+  margin-bottom: 2%;
+}
+
+.programmer-2{
+  height: 200px;
+  width: 200px;
+  border-radius:250px;
+  margin-top:1.5% ;
+  margin-bottom: 1.5%;
+  text-align: center;
+}
+
+/*Skills section*/
+
+
+.fswd,.ml,.food{
+  height: 200px;
+  width: 200px;
+  border-radius:250px;
+  margin:10px;
+  
+}
+
+
+@media (min-width:991px){
+
+  .fswd{
+      float:left;
+    
+  }
+  
+  .ml{
+      float: right;
+     
+  }
+  
+  .food{
+      float:left;
+  }
+  .skill-row{
+      height:220px;
+      text-align: left;
+      padding: 0 25% 0 25%;
+      margin:3%;
+  }
+
+}
+
+
+/*Horizontal Lines*/
+hr{
+  border-style: dotted none none; 
+  height:0px;
+  width:10%;
+  border-color:grey;
+  border-width:3px;
+  
+}
+
+/* Footer */
+
+#footer{
+  background-color: hsl(172, 51%, 89%);
+  padding-top: 1%;
+}
+

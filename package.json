@@ -1,0 +1,23 @@
+{
+  "name": "workshopwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/start-007/WorshopWebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/start-007/WorshopWebsite/issues"
+  },
+  "homepage": "https://github.com/start-007/WorshopWebsite#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
